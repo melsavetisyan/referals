@@ -1,6 +1,20 @@
 {
+  "name": "telegram-referral-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for referral system",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
   "dependencies": {
     "dotenv": "^16.4.7",
     "telegraf": "^4.16.3"
-  }
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC"
 }
